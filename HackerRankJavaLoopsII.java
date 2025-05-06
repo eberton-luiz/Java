@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Solution {
+class HackerRankJavaLoopsII {
     
     public static void main(String []args) {
         
