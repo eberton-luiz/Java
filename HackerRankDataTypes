@@ -28,7 +28,7 @@ public class HackerRankDataTypes {
 	            if(x >= -2147483648 && x <= 2147483647) {
 	                System.out.println("* int");
 	            }
-	            if(x < 0 || x > 0) {
+	            if(x <= 0 || x >= 0) { // O problema estava aqui, faltando um '=' para capturarmos o '0' como long.
 	                System.out.println("* long");
 	            }
 	            //Complete the code
