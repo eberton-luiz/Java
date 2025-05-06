@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class HackerRankEndOfLife {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);/* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        
+        String sb = "";
+         
+        Integer counter = 0;
+        while(sc.hasNext()) {
+           String line = sc.nextLine();
+           counter++;
+           
+           sb += counter + " " + line + "\n";
+        } 
+         
+       System.out.println(sb);
+    
+    sc.close();   
+    }
+}
